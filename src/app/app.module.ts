@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ServerComponent} from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +17,6 @@ import { ServersComponent } from './servers/servers.component';
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent, ServerComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
